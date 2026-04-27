@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Anti-Cringe Engineer</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #e0e0e0;
+        }
+        p {
+            font-size: 1rem;
+            color: #888;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .tier-buttons {
+            display: grid;
+            gap: 15px;
+            width: 100%;
+        }
+        .btn-tier {
+            background-color: #111;
+            color: #fff;
+            border: 1px solid #333;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-tier:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="hero.jpg" alt="The Engineer" class="profile">
+        
+        <h1>The Anti-Cringe Movement</h1>
+        <p>تجربة اجتماعية لإثبات أن العقل والمنطق يستحقان الدعم أكثر من المحتوى التافه. بصفتي مهندس DevOps، أتحداك أن تدعم القيمة الحقيقية.</p>
+
+        <div class="tier-buttons">
+            <a href="https://www.patreon.com/c/theanti_cringeengineer/membership" target="_blank" class="btn-tier">
+                Level 1: Anti-Cringe Vote ($1)
+            </a>
+            <a href="https://www.patreon.com/c/theanti_cringeengineer/membership" target="_blank" class="btn-tier">
+                Level 2: Logic Supporter ($10)
+            </a>
+            <a href="https://www.patreon.com/c/theanti_cringeengineer/membership" target="_blank" class="btn-tier">
+                Level 3: Guardian of Intellect ($100)
+            </a>
+            <a href="https://www.patreon.com/c/theanti_cringeengineer/membership" target="_blank" class="btn-tier">
+                Level 4: The Elite Mind ($1000)
+            </a>
+        </div>
+
+        <div class="footer">
+            Built by a DevOps Engineer | Adana, 2026
+        </div>
+    </div>
+
+</body>
+</html>
