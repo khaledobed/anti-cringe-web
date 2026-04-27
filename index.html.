@@ -8,7 +8,7 @@
         body {
             background-color: #000;
             color: #fff;
-            font-family: 'Courier New', Courier, monospace; /* طابع تقني أكثر */
+            font-family: 'Courier New', Courier, monospace;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -28,7 +28,7 @@
             border: 1px solid #333;
             margin-bottom: 25px;
             object-fit: cover;
-            filter: grayscale(100%); /* لجعلها أكثر غموضاً وجدية */
+            filter: grayscale(100%);
         }
         h1 {
             font-size: 1.6rem;
@@ -74,7 +74,7 @@
 <body>
 
     <div class="container">
-        <img src="hero.jpg" alt="DevOps Engineer" class="profile">
+        <img src="1777317686900.png" alt="DevOps Engineer" class="profile">
         
         <h1>The Anti-Cringe Experiment</h1>
         <p>
