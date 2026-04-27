@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
         body {
             background-color: #000;
             color: #fff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Courier New', Courier, monospace; /* طابع تقني أكثر */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -25,54 +25,63 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 2px solid #333;
-            margin-bottom: 20px;
+            border: 1px solid #333;
+            margin-bottom: 25px;
             object-fit: cover;
+            filter: grayscale(100%); /* لجعلها أكثر غموضاً وجدية */
         }
         h1 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-            color: #e0e0e0;
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
         p {
-            font-size: 1rem;
-            color: #888;
-            line-height: 1.6;
-            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: #aaa;
+            line-height: 1.8;
+            margin-bottom: 35px;
         }
         .tier-buttons {
             display: grid;
-            gap: 15px;
+            gap: 12px;
             width: 100%;
         }
         .btn-tier {
-            background-color: #111;
+            background-color: #000;
             color: #fff;
-            border: 1px solid #333;
-            padding: 15px;
+            border: 1px solid #444;
+            padding: 18px;
             text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: 0.3s;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            transition: all 0.4s ease;
         }
         .btn-tier:hover {
             background-color: #fff;
             color: #000;
+            border-color: #fff;
         }
         .footer {
-            margin-top: 50px;
-            font-size: 0.8rem;
-            color: #444;
+            margin-top: 60px;
+            font-size: 0.7rem;
+            color: #333;
+            letter-spacing: 1px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <img src="hero.jpg" alt="The Engineer" class="profile">
+        <img src="hero.jpg" alt="DevOps Engineer" class="profile">
         
-        <h1>The Anti-Cringe Movement</h1>
-        <p>تجربة اجتماعية لإثبات أن العقل والمنطق يستحقان الدعم أكثر من المحتوى التافه. بصفتي مهندس DevOps، أتحداك أن تدعم القيمة الحقيقية.</p>
+        <h1>The Anti-Cringe Experiment</h1>
+        <p>
+            I am a DevOps Engineer launching a social test. <br>
+            Does the digital world still value mastery, or has it decayed into pure mediocrity? <br>
+            Your support is a vote for logic. Choose your level.
+        </p>
 
         <div class="tier-buttons">
             <a href="https://www.patreon.com/c/theanti_cringeengineer/membership" target="_blank" class="btn-tier">
@@ -90,7 +99,7 @@
         </div>
 
         <div class="footer">
-            Built by a DevOps Engineer | Adana, 2026
+            SYSTEM STATUS: ONLINE | ADANA-NODE | 2026
         </div>
     </div>
 
